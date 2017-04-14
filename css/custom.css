@@ -1,0 +1,75 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-default {
+  background-color: #012857;
+  border-color: transparent;
+  margin: 0;
+}
+
+.navbar-brand {
+  float: left;
+  padding: 10px 20px;
+}
+
+.ng-poland-logo-horizontal {
+  height: 95%;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+  background-color: rgba(255,255,255,0.30);
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: rgba(255,255,255,0.30);
+}
+
+.dropdown-menu {
+  background-color: #012857;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+  background-color: rgba(255,255,255,0.30);
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.main-graphics {
+  background-image: url("../images/ngPoland_main_graphics.png");
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+  }
+}
