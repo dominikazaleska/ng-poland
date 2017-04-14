@@ -56,9 +56,48 @@
 
 .main-graphics {
   background-image: url("../images/ngPoland_main_graphics.png");
-  height: 350px;
+  height: 400px;
+  margin-top: 40px;
   background-size: cover;
   background-position: center;
+}
+
+.header-1 {
+  font-family: OpenSans-Semibold;
+  font-size: 27px;
+  color: #5C5C5C;
+  letter-spacing: -1.25px;
+  text-align: center;
+}
+
+.header-2 {
+  font-family: OpenSans;
+  font-size: 22px;
+  color: #5C5C5C;
+  letter-spacing: -0.96px;
+  text-align: center;
+}
+
+.buttons-container {
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button-container {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.button-side {
+  background-color: #E0323C;
+  color: #ffffff;
+  width: 150px;
+}
+
+hr {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 @media (min-width: 768px) {
