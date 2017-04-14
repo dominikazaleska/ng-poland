@@ -105,8 +105,12 @@ hr {
   margin-right: 10px;
 }
 
+.why-ngPoland-container {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
 .thumbnail {
-  padding: 20px;
   border: transparent;
 }
 
