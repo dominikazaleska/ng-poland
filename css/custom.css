@@ -95,9 +95,33 @@
   width: 150px;
 }
 
+.btn.focus, .btn:focus, .btn:hover {
+    color: #ffffff;
+    background-color: #C3040F;
+}
+
 hr {
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.thumbnail {
+  padding: 20px;
+  border: transparent;
+}
+
+.why-ngPoland-icon {
+  width: 100%;
+  text-align: center;
+  color: #E0323C;
+}
+
+.why-ngPoland-header {
+  text-align: center;
+}
+
+.why-ngPoland-text {
+  text-align: justify;
 }
 
 @media (min-width: 768px) {
