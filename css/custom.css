@@ -68,6 +68,7 @@
   color: #5C5C5C;
   letter-spacing: -1.25px;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .header-2 {
@@ -126,6 +127,32 @@ hr {
 
 .why-ngPoland-text {
   text-align: justify;
+}
+
+.ngPoland-2016-container {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.button-center {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #E0323C;
+  color: #ffffff;
+  width: 150px;
+}
+
+.stay-up-to-date {
+  background-color: #E0323C;
+}
+
+.header-1-white {
+  color: #ffffff;
+  font-family: OpenSans-Semibold;
+  font-size: 27px;
+  letter-spacing: -1.25px;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 @media (min-width: 768px) {
