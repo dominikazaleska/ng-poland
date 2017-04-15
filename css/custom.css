@@ -264,6 +264,41 @@ hr {
   border-top: 1px solid #012857;
 }
 
+.ng-hero {
+  padding-bottom: 10px;
+  background-color: #E7F4FA;
+}
+
+.code-of-conduct-container {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.code-of-conduct-thumbnail {
+  max-width: 90%;
+  margin-left: 5%;
+}
+
+.code-of-conduct-inside-caption {
+  background-color: transparent;
+}
+
+.code-of-conduct-icon {
+  width: 100%;
+  text-align: center;
+  color: #012857;
+}
+
+.code-of-conduct-header {
+  text-align: center;
+  color: #012857;
+}
+
+.code-of-conduct-text {
+  text-align: justify;
+  color: #012857;
+}
+
 @media (min-width: 768px) {
   .navbar {
     border-radius: 0;
@@ -275,10 +310,12 @@ hr {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #ffffff;
   }
+
   .call-for-papers-thumbnail {
     max-width: 90%;
     margin-left: 5%
   }
+
   .ng-hero-thumbnail {
     max-width: 90%;
     margin-left: 5%
