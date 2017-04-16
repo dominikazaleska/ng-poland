@@ -99,7 +99,7 @@
 
 .btn.focus, .btn:focus, .btn:hover {
     color: #ffffff;
-    background-color: #C3040F;
+    background-color: #666;
 }
 
 hr {
@@ -282,6 +282,15 @@ hr {
 .ng-hero {
   padding-bottom: 10px;
   background-color: #E7F4FA;
+}
+
+.contact-link {
+  color: inherit;
+}
+
+a:focus, a:hover {
+    color: #000000;
+    text-decoration: none;
 }
 
 .code-of-conduct-container {
