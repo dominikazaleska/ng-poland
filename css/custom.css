@@ -1,6 +1,5 @@
 * {
   font-family: 'Open Sans', sans-serif;
-  border: 1px solid red;
 }
 
 .navbar-default {
@@ -214,10 +213,10 @@ hr {
   letter-spacing: -1.25px;
   text-align: center;
   margin-bottom: 30px;
-  padding-top: 20px;
 }
 
 .ng-hero {
+  padding-top: 20px;
   padding-bottom: 10px;
   background-color: #E7F4FA;
 }
@@ -296,6 +295,7 @@ a:focus, a:hover {
 .code-of-conduct-container {
   margin-left: 0px;
   margin-right: 0px;
+  padding-bottom: 30px;
 }
 
 .code-of-conduct-thumbnail {
@@ -321,6 +321,35 @@ a:focus, a:hover {
 .code-of-conduct-text {
   text-align: justify;
   color: #012857;
+}
+
+.footer {
+  background-color: rgba(92,92,92,0.08);
+}
+
+.footer-social-links {
+   margin-right: 10px;
+   margin-top: 10px;
+   float: right;
+}
+
+.footer-social-link {
+  padding: 4px;
+}
+
+.footer-links-container {
+  max-width: 60%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+}
+
+.footer-links-caption {
+  padding-bottom: 2%;
+}
+
+.footer-link {
+  color: #777;
 }
 
 @media (min-width: 768px) {
