@@ -62,6 +62,10 @@
   background-position: center;
 }
 
+#sub-menu {
+  padding-top: 50px;
+}
+
 .header-1 {
   font-family: OpenSans-Semibold;
   font-size: 27px;
@@ -106,6 +110,10 @@ hr {
   margin-right: 10px;
 }
 
+#why-ngPoland {
+  padding-top: 50px;
+}
+
 .why-ngPoland-container {
     margin-right: 0px;
     margin-left: 0px;
@@ -129,9 +137,29 @@ hr {
   text-align: justify;
 }
 
+#ngPoland-2016 {
+  padding-top: 50px;
+}
+
 .ngPoland-2016-container {
+    width: 80%;
     margin-right: 0px;
     margin-left: 0px;
+}
+
+div.ngPoland-2016-container {
+    width: 80%;
+    margin-left: 10%;
+    height: 300px;
+}
+
+.ngPoland-2016-thumbnail {
+    height: 300px;
+    padding-bottom: 0px;
+}
+
+.media-iframe {
+    height: 300px;
 }
 
 .button-center {
@@ -140,6 +168,10 @@ hr {
   background-color: #E0323C;
   color: #ffffff;
   width: 150px;
+}
+
+#stay-up-to-date {
+  padding-top: 50px;
 }
 
 .stay-up-to-date {
@@ -153,7 +185,6 @@ hr {
   letter-spacing: -1.25px;
   text-align: center;
   margin-bottom: 30px;
-  padding-top: 20px;
 }
 
 .google-form {
@@ -162,6 +193,10 @@ hr {
 
 .hr-white {
   border-top: 1px solid rgba(255,255,255,0.30);
+}
+
+#call-for-papers {
+  padding-top: 50px;
 }
 
 .call-for-papers {
@@ -215,6 +250,10 @@ hr {
   margin-bottom: 30px;
 }
 
+#ng-hero {
+  padding-top: 50px;
+}
+
 .ng-hero {
   padding-top: 20px;
   padding-bottom: 10px;
@@ -251,19 +290,24 @@ hr {
   color: #012857;
 }
 
+#partners {
+  padding-top: 50px;
+}
+
 .partners-container {
   margin-left: 0px;
   margin-right: 0px;
 }
 
-.partners-thumbnail {
-  max-width: 90%;
-  margin-left: 5%;
+.partners-logos-container {
+  max-width: 80%;
+  margin-left: 10%;
 }
 
-.partners-logos-container {
-  max-width: 90%;
-  margin-left: 5%;
+.partners-text {
+  max-width: 80%;
+  margin-left: 10%;
+  text-align: justify;
 }
 
 .button-center-3 {
@@ -283,6 +327,10 @@ hr {
   background-color: #E7F4FA;
 }
 
+#contact {
+  padding-top: 50px;
+}
+
 .contact-link {
   color: inherit;
 }
@@ -290,6 +338,10 @@ hr {
 a:focus, a:hover {
     color: #000000;
     text-decoration: none;
+}
+
+#code-of-conduct {
+  padding-top: 50px;
 }
 
 .code-of-conduct-container {
@@ -356,6 +408,12 @@ a:focus, a:hover {
   .navbar {
     border-radius: 0;
   }
+}
+
+@media (max-width: 991px) {
+    #ngPoland-2016 {
+        height: 730px;
+    }
 }
 
 @media (max-width: 767px) {
