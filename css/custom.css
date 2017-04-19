@@ -21,6 +21,7 @@
   color: #ffffff;
 }
 .navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:active,
 .navbar-default .navbar-nav > li > a:focus {
   color: #ffffff;
   background-color: rgba(255,255,255,0.30);
@@ -28,6 +29,7 @@
 
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:active,
 .navbar-default .navbar-nav > .open > a:focus {
   color: #ffffff;
   background-color: rgba(255,255,255,0.30);
@@ -42,6 +44,7 @@
 }
 
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:active,
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
   background-color: rgba(255,255,255,0.30);
 }
@@ -54,6 +57,10 @@
     background-color: rgba(255, 255, 255, 0.3);
 }
 
+#main-graphics {
+  margin-top: 50px;
+}
+
 .main-graphics {
   background-image: url("../images/ngPoland_main_graphics.png");
   height: 400px;
@@ -64,6 +71,7 @@
 
 #sub-menu {
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .header-1 {
@@ -90,7 +98,7 @@
 }
 
 .button-container {
-  padding-top: 5px;
+  padding-top: 30px;
   padding-bottom: 5px;
 }
 
@@ -112,6 +120,7 @@ hr {
 
 #why-ngPoland {
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .why-ngPoland-container {
@@ -170,6 +179,10 @@ div.ngPoland-2016-container {
   width: 150px;
 }
 
+.site-2016-button {
+  margin-bottom: 90px;
+}
+
 #stay-up-to-date {
   padding-top: 50px;
 }
@@ -189,6 +202,7 @@ div.ngPoland-2016-container {
 
 .google-form {
   margin-left: 10%;
+  padding-bottom: 20px;
 }
 
 .hr-white {
@@ -235,7 +249,7 @@ div.ngPoland-2016-container {
 
 .button-center-2 {
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 70px;
   background-color: #ffffff;
   color: #E0323C;
   width: 150px;
@@ -252,6 +266,7 @@ div.ngPoland-2016-container {
 
 #ng-hero {
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .ng-hero {
@@ -278,6 +293,7 @@ div.ngPoland-2016-container {
   width: 100%;
   text-align: center;
   color: #012857;
+  padding-top: 20px;
 }
 
 .ng-hero-header {
@@ -297,6 +313,10 @@ div.ngPoland-2016-container {
 .partners-container {
   margin-left: 0px;
   margin-right: 0px;
+}
+
+.partners-sub-header {
+  margin-bottom: 30px;
 }
 
 .partners-logos-container {
@@ -329,6 +349,7 @@ div.ngPoland-2016-container {
 
 #contact {
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .contact-link {
@@ -373,6 +394,7 @@ a:focus, a:hover {
 .code-of-conduct-text {
   text-align: justify;
   color: #012857;
+  padding-bottom: 50px;
 }
 
 .footer {
@@ -411,15 +433,30 @@ a:focus, a:hover {
 }
 
 @media (max-width: 991px) {
+
+  .why-ngPoland-text {
+      text-align: justify;
+      max-width: 50%;
+      margin-left: 25%;
+  }
+
     #ngPoland-2016 {
         height: 730px;
     }
+
 }
 
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:active,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #ffffff;
+  }
+
+  .why-ngPoland-text {
+      text-align: justify;
+      max-width: 80%;
+      margin-left: 10%;
   }
 
   .call-for-papers-thumbnail {
